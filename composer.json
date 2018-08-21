@@ -1,0 +1,14 @@
+{
+    "name": "scsmktng/napolean",
+    "description": "A framework for small websites.",
+    "authors": [
+        {
+            "name": "Austin H",
+            "email": "aherman@sociusmarketing.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": { "Scsmktng\\Napolean\\": "src/napolean" }
+    }
+}
