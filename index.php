@@ -2,7 +2,6 @@
 
 /**
  * Tested down to PHP 5.4
- * This needs work.
  * This is a framework for small websites.
  *
  */
