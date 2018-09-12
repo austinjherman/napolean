@@ -20,7 +20,7 @@ use Scsmktng\Napolean\Application as App;
 
 $request = $_SERVER['REQUEST_URI'];
 $request = str_replace(INSTALLATION_DIRECTORY, '', $request);
-$request = $request !== '/' ? rtrim($request, '/') : '/';
+$request = $request !== '/' && $request !== '' ? rtrim($request, '/') : '/';
 
 $app = new App(INSTALLATION_DIRECTORY);
 
