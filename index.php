@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Tested down to PHP 5.4
+ * Tested down to PHP 5.3.23
  * This is a framework for small websites.
  *
  */
